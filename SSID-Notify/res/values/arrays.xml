@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_list_activity_entries">
+    	<item>Do nothing</item>
+		<item>System WiFi settings</item>
+        <item>This configuration</item>
+    </string-array>
+
+    <string-array name="pref_list_activity_key_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

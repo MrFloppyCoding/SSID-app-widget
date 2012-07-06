@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi SSID Notifier</string>
+
+    <!--  Preferences category 1 -->
+    <string name="pref_cat1_title">Settings</string>
+
+    <string name="pref_persistent_key">pref_persistent</string>
+    <string name="pref_persistent_title">Unpersistent notification</string>
+    <string name="pref_persistent_sum">Deselect to make the notification persistent</string>
+    <string name="pref_persistent_default">false</string>
+
+    <string name="pref_show_key">pref_show</string>
+    <string name="pref_show_title">Notification timeout</string>
+    <string name="pref_show_sum">Select for timeout for the notification</string>
+    <string name="pref_show_default">true</string>
+
+    <string name="pref_show_duration_title">Timeout duration</string>
+    <string name="pref_show_duration_sum">Time until the notification is removed</string>
+    <string name="pref_show_duration_default">20</string>
+    <string name="pref_shown_duration_dialog_title">The time (in seconds) the SSID is shown in the notification bar</string>
+    <string name="pref_show_duration_key">pref_show_duration</string>
+
+    <string name="pref_list_activity_key">pref_list_activity</string>
+    <string name="pref_list_activity_title">Select notification Intent</string>
+    <string name="pref_list_activity_sum">Select the desired application to launch when you click the notification bar</string>
+    <string name="pref_list_activity_dialog_title">Select the desired application to launch when you click the notification bar</string>
+
+    <!--  Preferences category 2 -->
+    <string name="pref_cat2_title">App version</string>
+    <string name="pref2_app_version_key"></string>
+    <string name="pref2_app_version_title"></string>
+
+    <!-- App Widget -->
+    <string name="connected">Connected to</string>
+    <string name="not_connected">WiFi NOT</string>
+    <string name="not_connected_2">connected</string>
+
+</resources>

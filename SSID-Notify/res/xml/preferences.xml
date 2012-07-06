@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/pref_cat1_title">
+
+		<CheckBoxPreference
+			android:key="@string/pref_persistent_key"
+			android:title="@string/pref_persistent_title"
+			android:summary="@string/pref_persistent_sum"
+			android:defaultValue="@string/pref_persistent_default" />
+
+		<CheckBoxPreference
+			android:key="@string/pref_show_key"
+			android:dependency="@string/pref_persistent_key"
+			android:title="@string/pref_show_title"
+			android:summary="@string/pref_show_sum"
+			android:defaultValue="@string/pref_show_default" />
+
+		<EditTextPreference
+			android:key="@string/pref_show_duration_key"
+			android:dependency="@string/pref_show_key"
+			android:title="@string/pref_show_duration_title"
+			android:summary="@string/pref_show_duration_sum"
+			android:dialogTitle="@string/pref_shown_duration_dialog_title"
+			android:defaultValue="@string/pref_show_duration_default"
+			android:inputType="number" />
+
+		<ListPreference
+			android:key="@string/pref_list_activity_key"
+			android:title="@string/pref_list_activity_title"
+			android:summary="@string/pref_list_activity_sum"
+			android:entries="@array/pref_list_activity_entries"
+			android:entryValues="@array/pref_list_activity_key_entry_values"
+			android:dialogTitle="@string/pref_list_activity_dialog_title"
+			android:defaultValue="2" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/pref_cat2_title">
+		<PreferenceScreen android:key="@string/pref2_app_version_key"
+			android:title="@string/pref2_app_version_title"
+			android:enabled="false" />
+	</PreferenceCategory>
+
+</PreferenceScreen>
